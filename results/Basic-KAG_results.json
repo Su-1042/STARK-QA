@@ -1,0 +1,1082 @@
+{
+  "system_name": "Basic-KAG",
+  "predictions": [
+    {
+      "question_id": 0,
+      "question": "where did the old man and his wife live ?",
+      "ground_truth": "in a dear little cottage by the side of a burn .",
+      "prediction": "This takes place in various locations described in the fairytales.",
+      "question_type": "setting",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.014204740524291992
+    },
+    {
+      "question_id": 1,
+      "question": "who were a very canty and contented couple ?",
+      "ground_truth": "an old man and his wife .",
+      "prediction": "This question relates to husband, which appears in: the-wee-bannock, alleleiraugh-or-the-many-furred-creature",
+      "question_type": "character",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.00906825065612793
+    },
+    {
+      "question_id": 2,
+      "question": "what animals did the couple own ?",
+      "ground_truth": "two sleek cows , five hens and a cock , an old cat , and two kittens .",
+      "prediction": "This question relates to father, which appears in: alleleiraugh-or-the-many-furred-creature",
+      "question_type": "action",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.00790548324584961
+    },
+    {
+      "question_id": 3,
+      "question": "what did the old man spend his time doing ?",
+      "ground_truth": "looking after the cows , and the hens , and the garden .",
+      "prediction": "This relates to objects and events described in the fairytales.",
+      "question_type": "action",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.00913095474243164
+    },
+    {
+      "question_id": 4,
+      "question": "what did the old woman want for supper ?",
+      "ground_truth": "an oatmeal bannock .",
+      "prediction": "This relates to objects and events described in the fairytales.",
+      "question_type": "action",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.008457660675048828
+    },
+    {
+      "question_id": 5,
+      "question": "what did the old woman do to make an oatmeal bannock ?",
+      "ground_truth": "took down her bakeboard , and put on her girdle , and baked a couple of fine cakes , and when they were ready she put them down before the fire to harden .",
+      "prediction": "This relates to the bannock (oatmeal cake) that features in the story.",
+      "question_type": "action",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.018119335174560547
+    },
+    {
+      "question_id": 6,
+      "question": "what happened after the other bannock saw the old man eat one of the bannocks ?",
+      "ground_truth": "the other bannock tried to escape .",
+      "prediction": "This relates to the bannock (oatmeal cake) that features in the story.",
+      "question_type": "outcome resolution",
+      "local_or_sum": "local",
+      "ex_or_im": "implicit",
+      "prediction_time": 0.010527372360229492
+    },
+    {
+      "question_id": 7,
+      "question": "how did the other bannock feel after it saw one of the banoocks get eaten ?",
+      "ground_truth": "scared .",
+      "prediction": "This question relates to father, which appears in: alleleiraugh-or-the-many-furred-creature",
+      "question_type": "feeling",
+      "local_or_sum": "local",
+      "ex_or_im": "implicit",
+      "prediction_time": 0.012050151824951172
+    },
+    {
+      "question_id": 8,
+      "question": "what happened after the old woman chased after the bannock ?",
+      "ground_truth": "the bannock ran into another house .",
+      "prediction": "This relates to the bannock (oatmeal cake) that features in the story.",
+      "question_type": "outcome resolution",
+      "local_or_sum": "local",
+      "ex_or_im": "implicit",
+      "prediction_time": 0.009519577026367188
+    },
+    {
+      "question_id": 9,
+      "question": "what did the woman do after she saw the bannock disappearing ?",
+      "ground_truth": "ran after it as fast as her legs would carry her , holding her spindle in one hand and her distaff in the other .",
+      "prediction": "This relates to the bannock (oatmeal cake) that features in the story.",
+      "question_type": "action",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.010820388793945312
+    },
+    {
+      "question_id": 10,
+      "question": "why couldn't the old woman catch up to the bannock ?",
+      "ground_truth": "she was old , and the bannock was young , and it ran faster than she did , and escaped over the hill behind the house .",
+      "prediction": "The reason is explained in the story context and character motivations.",
+      "question_type": "causal relationship",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.021122217178344727
+    },
+    {
+      "question_id": 11,
+      "question": "where did the bannock escape to ?",
+      "ground_truth": "a large newly thatched cottage .",
+      "prediction": "This question relates to father, which appears in: alleleiraugh-or-the-many-furred-creature",
+      "question_type": "setting",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.010296344757080078
+    },
+    {
+      "question_id": 12,
+      "question": "what were the tailors and his apprentices doing before the bannock came in ?",
+      "ground_truth": "sat cross - legged on the top of a big table by the window , sew away with all their might .",
+      "prediction": "This question relates to husband, which appears in: the-wee-bannock, alleleiraugh-or-the-many-furred-creature",
+      "question_type": "action",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.010306835174560547
+    },
+    {
+      "question_id": 13,
+      "question": "how did the three tailors feel after they saw the bannock ?",
+      "ground_truth": "frightened .",
+      "prediction": "This question relates to father, which appears in: alleleiraugh-or-the-many-furred-creature",
+      "question_type": "feeling",
+      "local_or_sum": "local",
+      "ex_or_im": "implicit",
+      "prediction_time": 0.013213872909545898
+    },
+    {
+      "question_id": 14,
+      "question": "what will the tailors do when they see the bannock ?",
+      "ground_truth": "jump down from the table and hide behind the master tailor 's wife .",
+      "prediction": "This question relates to father, which appears in: alleleiraugh-or-the-many-furred-creature",
+      "question_type": "prediction",
+      "local_or_sum": "summary",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.010057449340820312
+    },
+    {
+      "question_id": 15,
+      "question": "what will the tailor's wife and the three tailors do to the bannock ?",
+      "ground_truth": "try to catch the bannock .",
+      "prediction": "This relates to the bannock (oatmeal cake) that features in the story.",
+      "question_type": "prediction",
+      "local_or_sum": "summary",
+      "ex_or_im": "implicit",
+      "prediction_time": 0.008440971374511719
+    },
+    {
+      "question_id": 16,
+      "question": "what did the tailor's wife and the three tailors want to do with the bannock after they caught it ?",
+      "ground_truth": "eat the bannock .",
+      "prediction": "This relates to the bannock (oatmeal cake) that features in the story.",
+      "question_type": "action",
+      "local_or_sum": "local",
+      "ex_or_im": "implicit",
+      "prediction_time": 0.009353399276733398
+    },
+    {
+      "question_id": 17,
+      "question": "how did the bannock escape from the tailor's wife and the three tailors ?",
+      "ground_truth": "dodged them round and round the fire , and at last it got safely out of the door and ran down the road .",
+      "prediction": "Based on the knowledge graph: This question relates to wife, which appears in: the-wee-bannock, alleleiraugh-or-the-many-furred-creature Related to: fox, goodman, tailor",
+      "question_type": "action",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.008092880249023438
+    },
+    {
+      "question_id": 18,
+      "question": "what did the three tailors use to catch the bannock ?",
+      "ground_truth": "great shears , line measure , and the saucer full of pins .",
+      "prediction": "This question relates to house, which appears in: the-wee-bannock",
+      "question_type": "action",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.007912874221801758
+    },
+    {
+      "question_id": 19,
+      "question": "where did the bannock escape to after running away from the tailors ?",
+      "ground_truth": "a tiny cottage by the roadside .",
+      "prediction": "This question relates to father, which appears in: alleleiraugh-or-the-many-furred-creature",
+      "question_type": "setting",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.007582664489746094
+    },
+    {
+      "question_id": 20,
+      "question": "how will the weaver feel after seeing the bannock ?",
+      "ground_truth": "delighted .",
+      "prediction": "Based on the knowledge graph: This question relates to weaver, which appears in: the-wee-bannock Related to: fox, goodman, tailor",
+      "question_type": "prediction",
+      "local_or_sum": "summary",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.015855789184570312
+    },
+    {
+      "question_id": 21,
+      "question": "what did the weaver's husband want her to do ?",
+      "ground_truth": "grab the bannock .",
+      "prediction": "This relates to objects and events described in the fairytales.",
+      "question_type": "action",
+      "local_or_sum": "local",
+      "ex_or_im": "implicit",
+      "prediction_time": 0.010966062545776367
+    },
+    {
+      "question_id": 22,
+      "question": "what did the goodwife throw at the bannock ?",
+      "ground_truth": "her clue .",
+      "prediction": "This relates to the bannock (oatmeal cake) that features in the story.",
+      "question_type": "action",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.008835792541503906
+    },
+    {
+      "question_id": 23,
+      "question": "what did the goodwife do in the kitchen ?",
+      "ground_truth": "filled her kirn .",
+      "prediction": "This relates to objects and events described in the fairytales.",
+      "question_type": "action",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.008708000183105469
+    },
+    {
+      "question_id": 24,
+      "question": "what did the goodwife want to eat with her cream ?",
+      "ground_truth": "cakes .",
+      "prediction": "This relates to objects and events described in the fairytales.",
+      "question_type": "action",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.009490489959716797
+    },
+    {
+      "question_id": 25,
+      "question": "why wasn't the goodwife able to catch the bannock ?",
+      "ground_truth": "she had to fix the kirn .",
+      "prediction": "The reason is explained in the story context and character motivations.",
+      "question_type": "causal relationship",
+      "local_or_sum": "local",
+      "ex_or_im": "implicit",
+      "prediction_time": 0.008150339126586914
+    },
+    {
+      "question_id": 26,
+      "question": "why did the bannock run away from the miller ?",
+      "ground_truth": "the little bannock had no wish to be eaten up by the miller .",
+      "prediction": "The reason is explained in the story context and character motivations.",
+      "question_type": "causal relationship",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.00734710693359375
+    },
+    {
+      "question_id": 27,
+      "question": "why didn't the miller run after the bannock ?",
+      "ground_truth": "the miller was so busy .",
+      "prediction": "The reason is explained in the story context and character motivations.",
+      "question_type": "causal relationship",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.0074558258056640625
+    },
+    {
+      "question_id": 28,
+      "question": "what did the smith do as the bannock entered ?",
+      "ground_truth": "made horse - shoe nails .",
+      "prediction": "This relates to the bannock (oatmeal cake) that features in the story.",
+      "question_type": "action",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.007464408874511719
+    },
+    {
+      "question_id": 29,
+      "question": "how did  the smith feel after the bannock ran away ?",
+      "ground_truth": "disappointed .",
+      "prediction": "Based on the knowledge graph: This question relates to smith, which appears in: the-wee-bannock Related to: fox, goodman, tailor",
+      "question_type": "feeling",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.0076258182525634766
+    },
+    {
+      "question_id": 30,
+      "question": "what did the smith do after the bannock ran away ?",
+      "ground_truth": "flung his heavy hammer at it .",
+      "prediction": "This relates to the bannock (oatmeal cake) that features in the story.",
+      "question_type": "action",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.015362739562988281
+    },
+    {
+      "question_id": 31,
+      "question": "what happened after the smith flung his heavy hammer at the bannock ?",
+      "ground_truth": "he missed his aim .",
+      "prediction": "This relates to the bannock (oatmeal cake) that features in the story.",
+      "question_type": "outcome resolution",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.011782407760620117
+    },
+    {
+      "question_id": 32,
+      "question": "where did the bannock escape to after running away from the smith ?",
+      "ground_truth": "a farmhouse .",
+      "prediction": "This takes place in various locations described in the fairytales.",
+      "question_type": "setting",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.009904861450195312
+    },
+    {
+      "question_id": 33,
+      "question": "why did the janet's husband want to eat the bannock ?",
+      "ground_truth": "it looked rare and good .",
+      "prediction": "The reason is explained in the story context and character motivations.",
+      "question_type": "causal relationship",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.011232614517211914
+    },
+    {
+      "question_id": 34,
+      "question": "how did the janet's husband feel when it saw the bannock ?",
+      "ground_truth": "surprised .",
+      "prediction": "Based on the knowledge graph: This question relates to husband, which appears in: the-wee-bannock, alleleiraugh-or-the-many-furred-creature Related to: fox, goodman, tailor",
+      "question_type": "feeling",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.009575605392456055
+    },
+    {
+      "question_id": 35,
+      "question": "what did janet and her husband want to do with the bannock ?",
+      "ground_truth": "split the bannock in half .",
+      "prediction": "This relates to the bannock (oatmeal cake) that features in the story.",
+      "question_type": "action",
+      "local_or_sum": "local",
+      "ex_or_im": "implicit",
+      "prediction_time": 0.008214712142944336
+    },
+    {
+      "question_id": 36,
+      "question": "what did the janet throw at the bannock after it dodged behind a chair ?",
+      "ground_truth": "her heckle .",
+      "prediction": "This question relates to father, which appears in: alleleiraugh-or-the-many-furred-creature",
+      "question_type": "action",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.008672475814819336
+    },
+    {
+      "question_id": 37,
+      "question": "where did the bannock escape to after running away from the farmhouse ?",
+      "ground_truth": "a little cottage standing among the heather .",
+      "prediction": "This question relates to father, which appears in: alleleiraugh-or-the-many-furred-creature",
+      "question_type": "setting",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.008167028427124023
+    },
+    {
+      "question_id": 38,
+      "question": "what will jock do when his wife sees the bannock ?",
+      "ground_truth": "try to find the bannock .",
+      "prediction": "This relates to the bannock (oatmeal cake) that features in the story.",
+      "question_type": "prediction",
+      "local_or_sum": "summary",
+      "ex_or_im": "implicit",
+      "prediction_time": 0.006934165954589844
+    },
+    {
+      "question_id": 39,
+      "question": "why did the jock fall ?",
+      "ground_truth": "jock ran into the dark corner behind the chair ; but , in his hurry , he tripped and fell .",
+      "prediction": "This question relates to father, which appears in: alleleiraugh-or-the-many-furred-creature",
+      "question_type": "causal relationship",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.006022453308105469
+    },
+    {
+      "question_id": 40,
+      "question": "where did the bannock escape to after running away from jock and his wife ?",
+      "ground_truth": "a shepherd 's cottage on the other side .",
+      "prediction": "This takes place in various locations described in the fairytales.",
+      "question_type": "setting",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.016192913055419922
+    },
+    {
+      "question_id": 41,
+      "question": "why did the bannock always run to the fire in the houses ?",
+      "ground_truth": "it wanted to warm itself .",
+      "prediction": "This question relates to father, which appears in: alleleiraugh-or-the-many-furred-creature",
+      "question_type": "causal relationship",
+      "local_or_sum": "summary",
+      "ex_or_im": "implicit",
+      "prediction_time": 0.012884378433227539
+    },
+    {
+      "question_id": 42,
+      "question": "why did the shepherd and his wife want to catch the bannock ?",
+      "ground_truth": "they wanted to eat the bannock with their porridge .",
+      "prediction": "The reason is explained in the story context and character motivations.",
+      "question_type": "causal relationship",
+      "local_or_sum": "local",
+      "ex_or_im": "implicit",
+      "prediction_time": 0.010519981384277344
+    },
+    {
+      "question_id": 43,
+      "question": "what did the shepherd throw at the bannock ?",
+      "ground_truth": "his bonnet .",
+      "prediction": "This relates to the bannock (oatmeal cake) that features in the story.",
+      "question_type": "action",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.010062456130981445
+    },
+    {
+      "question_id": 44,
+      "question": "why did the goodman want to catch the bannock ?",
+      "ground_truth": "he did not have enough to eat at supper .",
+      "prediction": "The reason is explained in the story context and character motivations.",
+      "question_type": "causal relationship",
+      "local_or_sum": "local",
+      "ex_or_im": "implicit",
+      "prediction_time": 0.008071422576904297
+    },
+    {
+      "question_id": 45,
+      "question": "why did the goodman go home ?",
+      "ground_truth": "he was feeling cold without his coat .",
+      "prediction": "The reason is explained in the story context and character motivations.",
+      "question_type": "causal relationship",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.006556272506713867
+    },
+    {
+      "question_id": 46,
+      "question": "why didn't the goodman have his coat when he was chasing the bannock ?",
+      "ground_truth": "he threw it on the bannock .",
+      "prediction": "The reason is explained in the story context and character motivations.",
+      "question_type": "causal relationship",
+      "local_or_sum": "local",
+      "ex_or_im": "implicit",
+      "prediction_time": 0.0074994564056396484
+    },
+    {
+      "question_id": 47,
+      "question": "where did the bannock fall into ?",
+      "ground_truth": "a fox 's hole .",
+      "prediction": "This question relates to father, which appears in: alleleiraugh-or-the-many-furred-creature",
+      "question_type": "setting",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.006130695343017578
+    },
+    {
+      "question_id": 48,
+      "question": "why did the bannock fall into the fox's hole ?",
+      "ground_truth": "it was so dark that it never saw that there was a fox 's hole there .",
+      "prediction": "The reason is explained in the story context and character motivations.",
+      "question_type": "causal relationship",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.007611513137817383
+    },
+    {
+      "question_id": 49,
+      "question": "what happened after the bannock fell into the fox's hole ?",
+      "ground_truth": "the fox ate the bannock .",
+      "prediction": "This relates to the bannock (oatmeal cake) that features in the story.",
+      "question_type": "outcome resolution",
+      "local_or_sum": "local",
+      "ex_or_im": "implicit",
+      "prediction_time": 0.008109092712402344
+    },
+    {
+      "question_id": 50,
+      "question": "what kind of hair did the wife have ?",
+      "ground_truth": "golden hair .",
+      "prediction": "The story mentions various animals including cows, hens, cats, and other creatures.",
+      "question_type": "character",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.014310598373413086
+    },
+    {
+      "question_id": 51,
+      "question": "why couldn't one find anyone like the king's wife ?",
+      "ground_truth": "she was so beautiful .",
+      "prediction": "The reason is explained in the story context and character motivations.",
+      "question_type": "causal relationship",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.011129140853881836
+    },
+    {
+      "question_id": 52,
+      "question": "what happened when the king's wife fell ill ?",
+      "ground_truth": "she felt that she must soon die .",
+      "prediction": "This relates to objects and events described in the fairytales.",
+      "question_type": "outcome resolution",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.009175300598144531
+    },
+    {
+      "question_id": 53,
+      "question": "who did the king's wife send for when she felt that she would soon die ?",
+      "ground_truth": "the king .",
+      "prediction": "The answer involves the king from the story.",
+      "question_type": "character",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.011405467987060547
+    },
+    {
+      "question_id": 54,
+      "question": "why did the councillors say the king had to marry again ?",
+      "ground_truth": "so that they may have a queen .",
+      "prediction": "The reason is explained in the story context and character motivations.",
+      "question_type": "causal relationship",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.00849771499633789
+    },
+    {
+      "question_id": 55,
+      "question": "why were the messengers sent far and wide ?",
+      "ground_truth": "to seek for a bride equal to the late queen in beauty .",
+      "prediction": "This question relates to husband, which appears in: the-wee-bannock, alleleiraugh-or-the-many-furred-creature",
+      "question_type": "causal relationship",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.007890701293945312
+    },
+    {
+      "question_id": 56,
+      "question": "how did the king's daughter look ?",
+      "ground_truth": "just as beautiful as her dead mother .",
+      "prediction": "Based on the knowledge graph: This question relates to daughter, which appears in: alleleiraugh-or-the-many-furred-creature Related to: king, forest, cloak",
+      "question_type": "character",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.007676601409912109
+    },
+    {
+      "question_id": 57,
+      "question": "why did the king want his daughter to be the queen ?",
+      "ground_truth": "she was exactly like her dead mother .",
+      "prediction": "The reason is explained in the story context and character motivations.",
+      "question_type": "causal relationship",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.008520841598510742
+    },
+    {
+      "question_id": 58,
+      "question": "what will happen when the king dies ?",
+      "ground_truth": "his daughter 's husband shall be king .",
+      "prediction": "This relates to objects and events described in the fairytales.",
+      "question_type": "outcome resolution",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.00801396369934082
+    },
+    {
+      "question_id": 59,
+      "question": "how did the king's daughter feel when she heard his decision ?",
+      "ground_truth": "not at all pleased .",
+      "prediction": "Based on the knowledge graph: This question relates to daughter, which appears in: alleleiraugh-or-the-many-furred-creature Related to: king, forest, cloak",
+      "question_type": "feeling",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.008672475814819336
+    },
+    {
+      "question_id": 60,
+      "question": "what did the king's daughter say she must have ?",
+      "ground_truth": "three dresses .",
+      "prediction": "The story mentions various animals including cows, hens, cats, and other creatures.",
+      "question_type": "action",
+      "local_or_sum": "summary",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.015348672866821289
+    },
+    {
+      "question_id": 61,
+      "question": "what did the cloak have to made of ?",
+      "ground_truth": "every animal .",
+      "prediction": "The story mentions various animals including cows, hens, cats, and other creatures.",
+      "question_type": "action",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.009556055068969727
+    },
+    {
+      "question_id": 62,
+      "question": "what did the king command the huntsmen to do ?",
+      "ground_truth": "catch one of every kind of beast in the kingdom .",
+      "prediction": "This relates to objects and events described in the fairytales.",
+      "question_type": "action",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.012069940567016602
+    },
+    {
+      "question_id": 63,
+      "question": "who did the king command to weave the three dresses ?",
+      "ground_truth": "the most skilled maidens .",
+      "prediction": "The answer involves the king from the story.",
+      "question_type": "character",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.012233972549438477
+    },
+    {
+      "question_id": 64,
+      "question": "what happened after all was ready ?",
+      "ground_truth": "the king commanded the cloak to be brought to him , and he spread it out before the princess .",
+      "prediction": "I don't have enough information to answer this question.",
+      "question_type": "outcome resolution",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.008056402206420898
+    },
+    {
+      "question_id": 65,
+      "question": "what was the princess determined to do ?",
+      "ground_truth": "flee away .",
+      "prediction": "This relates to objects and events described in the fairytales.",
+      "question_type": "action",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.0081939697265625
+    },
+    {
+      "question_id": 66,
+      "question": "what did the princess do while everyone was sleeping ?",
+      "ground_truth": "she got up and took three things from her treasures .",
+      "prediction": "This relates to objects and events described in the fairytales.",
+      "question_type": "action",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.007139921188354492
+    },
+    {
+      "question_id": 67,
+      "question": "what did the princess put in a nut-shell ?",
+      "ground_truth": "the sun , moon , and star dresses .",
+      "prediction": "This relates to objects and events described in the fairytales.",
+      "question_type": "action",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.006471157073974609
+    },
+    {
+      "question_id": 68,
+      "question": "who did the princess commend herself to ?",
+      "ground_truth": "god .",
+      "prediction": "The answer involves the princess from the story.",
+      "question_type": "character",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.005682706832885742
+    },
+    {
+      "question_id": 69,
+      "question": "where did the princess travel till ?",
+      "ground_truth": "a large forest .",
+      "prediction": "This takes place in various locations described in the fairytales.",
+      "question_type": "setting",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.0059964656829833984
+    },
+    {
+      "question_id": 70,
+      "question": "where did the princess fall asleep ?",
+      "ground_truth": "inside a hollow tree .",
+      "prediction": "This takes place in various locations described in the fairytales.",
+      "question_type": "setting",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.013609170913696289
+    },
+    {
+      "question_id": 71,
+      "question": "what did the princess do after she condemned herself to god ?",
+      "ground_truth": "went out and travelled the whole night .",
+      "prediction": "This relates to objects and events described in the fairytales.",
+      "question_type": "action",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.009612798690795898
+    },
+    {
+      "question_id": 72,
+      "question": "who did the wood belong to ?",
+      "ground_truth": "the king .",
+      "prediction": "This question relates to father, which appears in: alleleiraugh-or-the-many-furred-creature",
+      "question_type": "character",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.007761240005493164
+    },
+    {
+      "question_id": 73,
+      "question": "what did the king do in the wood ?",
+      "ground_truth": "hunt .",
+      "prediction": "This relates to objects and events described in the fairytales.",
+      "question_type": "action",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.008242607116699219
+    },
+    {
+      "question_id": 74,
+      "question": "what did the dogs do when they came to the tree ?",
+      "ground_truth": "sniffed .",
+      "prediction": "This question relates to father, which appears in: alleleiraugh-or-the-many-furred-creature",
+      "question_type": "action",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.008879899978637695
+    },
+    {
+      "question_id": 75,
+      "question": "what did the huntsmen say lived in the tree ?",
+      "ground_truth": "a wonderful animal that they did n't know .",
+      "prediction": "This question relates to father, which appears in: alleleiraugh-or-the-many-furred-creature",
+      "question_type": "action",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.00672459602355957
+    },
+    {
+      "question_id": 76,
+      "question": "what did the king tell the huntsmen to do to the beast ?",
+      "ground_truth": "catch it alive .",
+      "prediction": "This relates to objects and events described in the fairytales.",
+      "question_type": "action",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.006628990173339844
+    },
+    {
+      "question_id": 77,
+      "question": "what happened after the huntsmen seized the maiden ?",
+      "ground_truth": "she awoke .",
+      "prediction": "This question relates to father, which appears in: alleleiraugh-or-the-many-furred-creature",
+      "question_type": "outcome resolution",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.006223440170288086
+    },
+    {
+      "question_id": 78,
+      "question": "how did the princess feel when she awoke ?",
+      "ground_truth": "frightened .",
+      "prediction": "Based on the knowledge graph: This question relates to princess, which appears in: alleleiraugh-or-the-many-furred-creature Related to: king, daughter, forest",
+      "question_type": "feeling",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.006356477737426758
+    },
+    {
+      "question_id": 79,
+      "question": "what did the huntsmen say the creature could do ?",
+      "ground_truth": "work in the kitchen .",
+      "prediction": "This question relates to father, which appears in: alleleiraugh-or-the-many-furred-creature",
+      "question_type": "action",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.005900144577026367
+    },
+    {
+      "question_id": 80,
+      "question": "where did the creature and the huntsmen go ?",
+      "ground_truth": "back to the palace .",
+      "prediction": "This question relates to husband, which appears in: the-wee-bannock, alleleiraugh-or-the-many-furred-creature",
+      "question_type": "setting",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.012847661972045898
+    },
+    {
+      "question_id": 81,
+      "question": "where would the many-furred creature sleep ?",
+      "ground_truth": "a tiny room under the stairs .",
+      "prediction": "This question relates to father, which appears in: alleleiraugh-or-the-many-furred-creature",
+      "question_type": "setting",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.008814811706542969
+    },
+    {
+      "question_id": 82,
+      "question": "what did the many-furred creature do in the kitchen ?",
+      "ground_truth": "carried wood and water , poked the fire , washed vegetables , plucked fowls , swept up the ashes , and did all the dirty work .",
+      "prediction": "This question relates to father, which appears in: alleleiraugh-or-the-many-furred-creature",
+      "question_type": "action",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.008748531341552734
+    },
+    {
+      "question_id": 83,
+      "question": "what will the princess do in half-an-hour ?",
+      "ground_truth": "be back here to sweep up the ashes .",
+      "prediction": "This relates to objects and events described in the fairytales.",
+      "question_type": "prediction",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.008738994598388672
+    },
+    {
+      "question_id": 84,
+      "question": "what did the princess do in her little room ?",
+      "ground_truth": "drew off her fur cloak , and washed off the soot from her face and hands .",
+      "prediction": "This relates to objects and events described in the fairytales.",
+      "question_type": "action",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.008004426956176758
+    },
+    {
+      "question_id": 85,
+      "question": "why did everybody step out of the princess' way ?",
+      "ground_truth": "nobody knew her , and they thought she must be a king 's daughter .",
+      "prediction": "The reason is explained in the story context and character motivations.",
+      "question_type": "causal relationship",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.008134603500366211
+    },
+    {
+      "question_id": 86,
+      "question": "what did the king do after he came towards the princess ?",
+      "ground_truth": "gave her his hand , and danced with her .",
+      "prediction": "This relates to objects and events described in the fairytales.",
+      "question_type": "action",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.007539033889770508
+    },
+    {
+      "question_id": 87,
+      "question": "what will happen if the many-furred creature drops a hair in the soup ?",
+      "ground_truth": "the many - furred creature will get nothing to eat in future .",
+      "prediction": "This question relates to father, which appears in: alleleiraugh-or-the-many-furred-creature",
+      "question_type": "prediction",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.00815892219543457
+    },
+    {
+      "question_id": 88,
+      "question": "what did the many-furred creature do after she made a bread-soup ?",
+      "ground_truth": "fetched her gold ring from her little room , and laid it in the tureen in which the soup was to be served up .",
+      "prediction": "This question relates to shepherd, which appears in: the-wee-bannock",
+      "question_type": "action",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.008261442184448242
+    },
+    {
+      "question_id": 89,
+      "question": "what did the king discover at the bottom of the dish ?",
+      "ground_truth": "a gold ring .",
+      "prediction": "This relates to objects and events described in the fairytales.",
+      "question_type": "action",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.0068013668060302734
+    },
+    {
+      "question_id": 90,
+      "question": "how did the cook feel when the king called him in ?",
+      "ground_truth": "terrified .",
+      "prediction": "Based on the knowledge graph: This question relates to cook, which appears in: alleleiraugh-or-the-many-furred-creature Related to: king, daughter, forest",
+      "question_type": "feeling",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.013630151748657227
+    },
+    {
+      "question_id": 91,
+      "question": "why did the king say the cook did not prepare his soup ?",
+      "ground_truth": "it was quite different and much better soup than the cook have ever cooked .",
+      "prediction": "The reason is explained in the story context and character motivations.",
+      "question_type": "causal relationship",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.009209156036376953
+    },
+    {
+      "question_id": 92,
+      "question": "who did the cook say cooked the soup ?",
+      "ground_truth": "the many - furred creature .",
+      "prediction": "This involves characters from the fairytales.",
+      "question_type": "character",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.00872039794921875
+    },
+    {
+      "question_id": 93,
+      "question": "who did the many-furred creature go upstairs looking like ?",
+      "ground_truth": "a king 's daughter .",
+      "prediction": "This question relates to father, which appears in: alleleiraugh-or-the-many-furred-creature",
+      "question_type": "character",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.008974313735961914
+    },
+    {
+      "question_id": 94,
+      "question": "what will the king do with the beautiful maiden when he sees her again ?",
+      "ground_truth": "dance .",
+      "prediction": "This relates to objects and events described in the fairytales.",
+      "question_type": "prediction",
+      "local_or_sum": "summary",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.00826716423034668
+    },
+    {
+      "question_id": 95,
+      "question": "how did the king feel seeing the maiden again ?",
+      "ground_truth": "delighted .",
+      "prediction": "Based on the knowledge graph: This question relates to king, which appears in: alleleiraugh-or-the-many-furred-creature Related to: daughter, forest, cloak",
+      "question_type": "feeling",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.0062716007232666016
+    },
+    {
+      "question_id": 96,
+      "question": "what happened when the dance ended ?",
+      "ground_truth": "the maiden disappeared again so quickly that the king could not see which way she went .",
+      "prediction": "This question relates to father, which appears in: alleleiraugh-or-the-many-furred-creature",
+      "question_type": "outcome resolution",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.005574703216552734
+    },
+    {
+      "question_id": 97,
+      "question": "what did the many-furred creature say her use was ?",
+      "ground_truth": "have boots thrown at her head .",
+      "prediction": "This question relates to house, which appears in: the-wee-bannock",
+      "question_type": "action",
+      "local_or_sum": "summary",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.00613093376159668
+    },
+    {
+      "question_id": 98,
+      "question": "what did the cook think the many-furred creature was ?",
+      "ground_truth": "a witch .",
+      "prediction": "This relates to objects and events described in the fairytales.",
+      "question_type": "action",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.006435871124267578
+    },
+    {
+      "question_id": 99,
+      "question": "why did the cook think the many-furred creature was a witch ?",
+      "ground_truth": "she always put something in the soup , so that it is much better and tastes nicer to the king than any that he cooked .",
+      "prediction": "The reason is explained in the story context and character motivations.",
+      "question_type": "causal relationship",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.006312370300292969
+    }
+  ],
+  "metrics": {
+    "total_questions": 100,
+    "valid_predictions": 100,
+    "rouge1_avg": 0.09446393107968562,
+    "rouge2_avg": 0.016178722847201107,
+    "rougeL_avg": 0.08314111274953563,
+    "bleu_avg": 0.010756240839538833,
+    "bert_score_precision": 0.8275381326675415,
+    "bert_score_recall": 0.8324666023254395,
+    "bert_score_f1": 0.829843282699585,
+    "avg_prediction_length": 10.98,
+    "avg_ground_truth_length": 8.52,
+    "flesch_reading_ease": 45.93471722488035,
+    "gunning_fog_index": 9.234817650186077,
+    "by_question_type": {
+      "setting": {
+        "count": 11,
+        "valid_predictions": 11,
+        "success_rate": 1.0
+      },
+      "local_sum_local": {
+        "count": 92,
+        "valid_predictions": 92,
+        "success_rate": 1.0
+      },
+      "ex_im_explicit": {
+        "count": 85,
+        "valid_predictions": 85,
+        "success_rate": 1.0
+      },
+      "character": {
+        "count": 9,
+        "valid_predictions": 9,
+        "success_rate": 1.0
+      },
+      "action": {
+        "count": 37,
+        "valid_predictions": 37,
+        "success_rate": 1.0
+      },
+      "outcome resolution": {
+        "count": 9,
+        "valid_predictions": 9,
+        "success_rate": 1.0
+      },
+      "ex_im_implicit": {
+        "count": 15,
+        "valid_predictions": 15,
+        "success_rate": 1.0
+      },
+      "feeling": {
+        "count": 8,
+        "valid_predictions": 8,
+        "success_rate": 1.0
+      },
+      "causal relationship": {
+        "count": 19,
+        "valid_predictions": 19,
+        "success_rate": 1.0
+      },
+      "prediction": {
+        "count": 7,
+        "valid_predictions": 7,
+        "success_rate": 1.0
+      },
+      "local_sum_summary": {
+        "count": 8,
+        "valid_predictions": 8,
+        "success_rate": 1.0
+      }
+    }
+  },
+  "timing": {
+    "total_time": 0.9320721626281738,
+    "avg_time_per_question": 0.009320721626281739,
+    "median_time_per_question": 0.008520841598510742
+  }
+}

@@ -1,0 +1,50 @@
+# Requirements for STARK-QA project
+# This file lists all Python dependencies for pip installation
+# Use with: pip install -r requirements.txt
+
+# Core ML/NLP libraries
+torch>=2.0.0
+transformers>=4.30.0
+sentence-transformers>=2.2.0
+datasets>=2.10.0
+
+# Vector databases and search
+faiss-cpu>=1.7.4  # Changed from faiss-gpu to faiss-cpu for better compatibility
+chromadb>=0.4.18
+
+# Natural Language Processing
+spacy>=3.7.0
+nltk>=3.8.1
+
+# Knowledge Graph libraries
+networkx>=3.2.0
+py2neo>=2021.2.3
+pyvis>=0.3.2
+
+# Scientific computing
+numpy>=1.24.0
+pandas>=2.1.0
+scikit-learn>=1.3.0
+
+# Evaluation metrics
+rouge-score>=0.1.2
+bert-score>=0.3.13
+textstat>=0.7.3
+
+# API clients
+mistralai>=0.0.11
+openai>=1.3.0
+requests>=2.31.0
+
+# Visualization
+matplotlib>=3.8.0
+seaborn>=0.13.0
+plotly>=5.17.0
+
+# Utilities
+tqdm>=4.66.0
+
+# Development tools
+pytest>=7.4.0
+black>=23.0.0
+flake8>=6.0.0

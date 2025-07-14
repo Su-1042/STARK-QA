@@ -1,0 +1,1082 @@
+{
+  "system_name": "Basic-RAG",
+  "predictions": [
+    {
+      "question_id": 0,
+      "question": "where did the old man and his wife live ?",
+      "ground_truth": "in a dear little cottage by the side of a burn .",
+      "prediction": "there was once an old man and his wife , who lived in a dear little cottage by the side of a burn",
+      "question_type": "setting",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.001989603042602539
+    },
+    {
+      "question_id": 1,
+      "question": "who were a very canty and contented couple ?",
+      "ground_truth": "an old man and his wife .",
+      "prediction": "they were a very canty and contented couple , for they had enough to live on , and enough to do",
+      "question_type": "character",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.0021805763244628906
+    },
+    {
+      "question_id": 2,
+      "question": "what animals did the couple own ?",
+      "ground_truth": "two sleek cows , five hens and a cock , an old cat , and two kittens .",
+      "prediction": "' ' how did you get the ring which was in the soup ? ' he asked",
+      "question_type": "action",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.0035600662231445312
+    },
+    {
+      "question_id": 3,
+      "question": "what did the old man spend his time doing ?",
+      "ground_truth": "looking after the cows , and the hens , and the garden .",
+      "prediction": "the old man spent his time looking after the cows , and the hens , and the garden ; while the old woman kept herself busy spinning",
+      "question_type": "action",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.004027843475341797
+    },
+    {
+      "question_id": 4,
+      "question": "what did the old woman want for supper ?",
+      "ground_truth": "an oatmeal bannock .",
+      "prediction": "one day , just after breakfast , the old woman thought that she would like an oatmeal bannock for her supper that evening , so she took down her bakeboard , and put on her girdle , and baked a couple of fine cakes , and when they were ready she put them down before the fire to harden",
+      "question_type": "action",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.001730203628540039
+    },
+    {
+      "question_id": 5,
+      "question": "what did the old woman do to make an oatmeal bannock ?",
+      "ground_truth": "took down her bakeboard , and put on her girdle , and baked a couple of fine cakes , and when they were ready she put them down before the fire to harden .",
+      "prediction": "one day , just after breakfast , the old woman thought that she would like an oatmeal bannock for her supper that evening , so she took down her bakeboard , and put on her girdle , and baked a couple of fine cakes , and when they were ready she put them down before the fire to harden",
+      "question_type": "action",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.0016748905181884766
+    },
+    {
+      "question_id": 6,
+      "question": "what happened after the other bannock saw the old man eat one of the bannocks ?",
+      "ground_truth": "the other bannock tried to escape .",
+      "prediction": "one day , just after breakfast , the old woman thought that she would like an oatmeal bannock for her supper that evening , so she took down her bakeboard , and put on her girdle , and baked a couple of fine cakes , and when they were ready she put them down before the fire to harden",
+      "question_type": "outcome resolution",
+      "local_or_sum": "local",
+      "ex_or_im": "implicit",
+      "prediction_time": 0.0015861988067626953
+    },
+    {
+      "question_id": 7,
+      "question": "how did the other bannock feel after it saw one of the banoocks get eaten ?",
+      "ground_truth": "scared .",
+      "prediction": "\" but the little bannock had no wish to be eaten up by the miller , so it turned and ran out of the mill , and the miller was so busy that he did not trouble himself to run after it",
+      "question_type": "feeling",
+      "local_or_sum": "local",
+      "ex_or_im": "implicit",
+      "prediction_time": 0.0018243789672851562
+    },
+    {
+      "question_id": 8,
+      "question": "what happened after the old woman chased after the bannock ?",
+      "ground_truth": "the bannock ran into another house .",
+      "prediction": "one day , just after breakfast , the old woman thought that she would like an oatmeal bannock for her supper that evening , so she took down her bakeboard , and put on her girdle , and baked a couple of fine cakes , and when they were ready she put them down before the fire to harden",
+      "question_type": "outcome resolution",
+      "local_or_sum": "local",
+      "ex_or_im": "implicit",
+      "prediction_time": 0.0022878646850585938
+    },
+    {
+      "question_id": 9,
+      "question": "what did the woman do after she saw the bannock disappearing ?",
+      "ground_truth": "ran after it as fast as her legs would carry her , holding her spindle in one hand and her distaff in the other .",
+      "prediction": "and when the old woman saw it disappearing , she ran after it as fast as her legs would carry her , holding her spindle in one hand and her distaff in the other",
+      "question_type": "action",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.002416372299194336
+    },
+    {
+      "question_id": 10,
+      "question": "why couldn't the old woman catch up to the bannock ?",
+      "ground_truth": "she was old , and the bannock was young , and it ran faster than she did , and escaped over the hill behind the house .",
+      "prediction": "one day , just after breakfast , the old woman thought that she would like an oatmeal bannock for her supper that evening , so she took down her bakeboard , and put on her girdle , and baked a couple of fine cakes , and when they were ready she put them down before the fire to harden",
+      "question_type": "causal relationship",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.0020966529846191406
+    },
+    {
+      "question_id": 11,
+      "question": "where did the bannock escape to ?",
+      "ground_truth": "a large newly thatched cottage .",
+      "prediction": "\" but the little bannock had no wish to be eaten up by the miller , so it turned and ran out of the mill , and the miller was so busy that he did not trouble himself to run after it",
+      "question_type": "setting",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.001871347427368164
+    },
+    {
+      "question_id": 12,
+      "question": "what were the tailors and his apprentices doing before the bannock came in ?",
+      "ground_truth": "sat cross - legged on the top of a big table by the window , sew away with all their might .",
+      "prediction": "\" while they were toasting , her husband came in from the byre , and sat down to take a rest in his great arm - chair",
+      "question_type": "action",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.0017957687377929688
+    },
+    {
+      "question_id": 13,
+      "question": "how did the three tailors feel after they saw the bannock ?",
+      "ground_truth": "frightened .",
+      "prediction": "when the wee bannock came trundling across the floor , all three tailors got such a fright that they jumped down from the table and hid behind the master tailor 's wife",
+      "question_type": "feeling",
+      "local_or_sum": "local",
+      "ex_or_im": "implicit",
+      "prediction_time": 0.0018417835235595703
+    },
+    {
+      "question_id": 14,
+      "question": "what will the tailors do when they see the bannock ?",
+      "ground_truth": "jump down from the table and hide behind the master tailor 's wife .",
+      "prediction": "when the wee bannock came trundling across the floor , all three tailors got such a fright that they jumped down from the table and hid behind the master tailor 's wife",
+      "question_type": "prediction",
+      "local_or_sum": "summary",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.0018627643585205078
+    },
+    {
+      "question_id": 15,
+      "question": "what will the tailor's wife and the three tailors do to the bannock ?",
+      "ground_truth": "try to catch the bannock .",
+      "prediction": "when the wee bannock came trundling across the floor , all three tailors got such a fright that they jumped down from the table and hid behind the master tailor 's wife",
+      "question_type": "prediction",
+      "local_or_sum": "summary",
+      "ex_or_im": "implicit",
+      "prediction_time": 0.0017957687377929688
+    },
+    {
+      "question_id": 16,
+      "question": "what did the tailor's wife and the three tailors want to do with the bannock after they caught it ?",
+      "ground_truth": "eat the bannock .",
+      "prediction": "when the wee bannock came trundling across the floor , all three tailors got such a fright that they jumped down from the table and hid behind the master tailor 's wife",
+      "question_type": "action",
+      "local_or_sum": "local",
+      "ex_or_im": "implicit",
+      "prediction_time": 0.0017597675323486328
+    },
+    {
+      "question_id": 17,
+      "question": "how did the bannock escape from the tailor's wife and the three tailors ?",
+      "ground_truth": "dodged them round and round the fire , and at last it got safely out of the door and ran down the road .",
+      "prediction": "when the wee bannock came trundling across the floor , all three tailors got such a fright that they jumped down from the table and hid behind the master tailor 's wife",
+      "question_type": "action",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.0017440319061279297
+    },
+    {
+      "question_id": 18,
+      "question": "what did the three tailors use to catch the bannock ?",
+      "ground_truth": "great shears , line measure , and the saucer full of pins .",
+      "prediction": "when the wee bannock came trundling across the floor , all three tailors got such a fright that they jumped down from the table and hid behind the master tailor 's wife",
+      "question_type": "action",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.0017352104187011719
+    },
+    {
+      "question_id": 19,
+      "question": "where did the bannock escape to after running away from the tailors ?",
+      "ground_truth": "a tiny cottage by the roadside .",
+      "prediction": "\" but the little bannock had no wish to be eaten up by the miller , so it turned and ran out of the mill , and the miller was so busy that he did not trouble himself to run after it",
+      "question_type": "setting",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.0017437934875488281
+    },
+    {
+      "question_id": 20,
+      "question": "how will the weaver feel after seeing the bannock ?",
+      "ground_truth": "delighted .",
+      "prediction": "\" what 's that , tibby ? \" said the weaver , with a start as the little cake flew past him",
+      "question_type": "prediction",
+      "local_or_sum": "summary",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.0018727779388427734
+    },
+    {
+      "question_id": 21,
+      "question": "what did the weaver's husband want her to do ?",
+      "ground_truth": "grab the bannock .",
+      "prediction": "' but when the princess heard of her father 's decision , she was not at all pleased , and said to him , ' before i do your bidding , i must have three dresses ; one as golden as the sun , one as silver as the moon , and one as shining as the stars",
+      "question_type": "action",
+      "local_or_sum": "local",
+      "ex_or_im": "implicit",
+      "prediction_time": 0.0017733573913574219
+    },
+    {
+      "question_id": 22,
+      "question": "what did the goodwife throw at the bannock ?",
+      "ground_truth": "her clue .",
+      "prediction": "\" what 's that ? \" said he ,\n\ncame to it found the goodwife in the kitchen , kirning",
+      "question_type": "action",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.0017702579498291016
+    },
+    {
+      "question_id": 23,
+      "question": "what did the goodwife do in the kitchen ?",
+      "ground_truth": "filled her kirn .",
+      "prediction": "\" you are crying for a little bannock for your supper ;\n\ncame to it found the goodwife in the kitchen , kirning",
+      "question_type": "action",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.0018036365509033203
+    },
+    {
+      "question_id": 24,
+      "question": "what did the goodwife want to eat with her cream ?",
+      "ground_truth": "cakes .",
+      "prediction": "here the goodwife was making porridge for the supper in a pot over the fire , and her husband was sitting in a corner plaiting ropes of straw with which to tie up the cow",
+      "question_type": "action",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.0017724037170410156
+    },
+    {
+      "question_id": 25,
+      "question": "why wasn't the goodwife able to catch the bannock ?",
+      "ground_truth": "she had to fix the kirn .",
+      "prediction": "here the goodwife was making porridge for the supper in a pot over the fire , and her husband was sitting in a corner plaiting ropes of straw with which to tie up the cow",
+      "question_type": "causal relationship",
+      "local_or_sum": "local",
+      "ex_or_im": "implicit",
+      "prediction_time": 0.001749277114868164
+    },
+    {
+      "question_id": 26,
+      "question": "why did the bannock run away from the miller ?",
+      "ground_truth": "the little bannock had no wish to be eaten up by the miller .",
+      "prediction": "\" but the little bannock had no wish to be eaten up by the miller , so it turned and ran out of the mill , and the miller was so busy that he did not trouble himself to run after it",
+      "question_type": "causal relationship",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.0017516613006591797
+    },
+    {
+      "question_id": 27,
+      "question": "why didn't the miller run after the bannock ?",
+      "ground_truth": "the miller was so busy .",
+      "prediction": "\" but the little bannock had no wish to be eaten up by the miller , so it turned and ran out of the mill , and the miller was so busy that he did not trouble himself to run after it",
+      "question_type": "causal relationship",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.0017561912536621094
+    },
+    {
+      "question_id": 28,
+      "question": "what did the smith do as the bannock entered ?",
+      "ground_truth": "made horse - shoe nails .",
+      "prediction": "he looked up as the wee bannock entered",
+      "question_type": "action",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.0018072128295898438
+    },
+    {
+      "question_id": 29,
+      "question": "how did  the smith feel after the bannock ran away ?",
+      "ground_truth": "disappointed .",
+      "prediction": "\" but as soon as the little bannock heard of the ale , it turned and ran out of the smithy as fast as it could , and the disappointed smith picked up his hammer and ran after it",
+      "question_type": "feeling",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.0019485950469970703
+    },
+    {
+      "question_id": 30,
+      "question": "what did the smith do after the bannock ran away ?",
+      "ground_truth": "flung his heavy hammer at it .",
+      "prediction": "\" but as soon as the little bannock heard of the ale , it turned and ran out of the smithy as fast as it could , and the disappointed smith picked up his hammer and ran after it",
+      "question_type": "action",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.01424551010131836
+    },
+    {
+      "question_id": 31,
+      "question": "what happened after the smith flung his heavy hammer at the bannock ?",
+      "ground_truth": "he missed his aim .",
+      "prediction": "\" but as soon as the little bannock heard of the ale , it turned and ran out of the smithy as fast as it could , and the disappointed smith picked up his hammer and ran after it",
+      "question_type": "outcome resolution",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.0020842552185058594
+    },
+    {
+      "question_id": 32,
+      "question": "where did the bannock escape to after running away from the smith ?",
+      "ground_truth": "a farmhouse .",
+      "prediction": "\" but the little bannock had no wish to be eaten up by the miller , so it turned and ran out of the mill , and the miller was so busy that he did not trouble himself to run after it",
+      "question_type": "setting",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.005236625671386719
+    },
+    {
+      "question_id": 33,
+      "question": "why did the janet's husband want to eat the bannock ?",
+      "ground_truth": "it looked rare and good .",
+      "prediction": "after this the bannock came to a farmhouse , with a great stack of peats standing at the back of it",
+      "question_type": "causal relationship",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.005026340484619141
+    },
+    {
+      "question_id": 34,
+      "question": "how did the janet's husband feel when it saw the bannock ?",
+      "ground_truth": "surprised .",
+      "prediction": "when the other bannock saw this it determined that it should not have the same fate , so it ran across the kitchen and out of the door as fast as it",
+      "question_type": "feeling",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.0021622180938720703
+    },
+    {
+      "question_id": 35,
+      "question": "what did janet and her husband want to do with the bannock ?",
+      "ground_truth": "split the bannock in half .",
+      "prediction": "here the goodwife was making porridge for the supper in a pot over the fire , and her husband was sitting in a corner plaiting ropes of straw with which to tie up the cow",
+      "question_type": "action",
+      "local_or_sum": "local",
+      "ex_or_im": "implicit",
+      "prediction_time": 0.0052721500396728516
+    },
+    {
+      "question_id": 36,
+      "question": "what did the janet throw at the bannock after it dodged behind a chair ?",
+      "ground_truth": "her heckle .",
+      "prediction": "after this the bannock came to a farmhouse , with a great stack of peats standing at the back of it",
+      "question_type": "action",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.0037322044372558594
+    },
+    {
+      "question_id": 37,
+      "question": "where did the bannock escape to after running away from the farmhouse ?",
+      "ground_truth": "a little cottage standing among the heather .",
+      "prediction": "\" but the little bannock had no wish to be eaten up by the miller , so it turned and ran out of the mill , and the miller was so busy that he did not trouble himself to run after it",
+      "question_type": "setting",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.007009744644165039
+    },
+    {
+      "question_id": 38,
+      "question": "what will jock do when his wife sees the bannock ?",
+      "ground_truth": "try to find the bannock .",
+      "prediction": "\" so jock ran into the dark corner behind the chair ; but , in his hurry , he tripped and fell , and the wee bannock jumped over him and flew laughing out at the door",
+      "question_type": "prediction",
+      "local_or_sum": "summary",
+      "ex_or_im": "implicit",
+      "prediction_time": 0.0021233558654785156
+    },
+    {
+      "question_id": 39,
+      "question": "why did the jock fall ?",
+      "ground_truth": "jock ran into the dark corner behind the chair ; but , in his hurry , he tripped and fell .",
+      "prediction": "\" oh , jock ! come here , come here , \" cried the goodwife",
+      "question_type": "causal relationship",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.005887508392333984
+    },
+    {
+      "question_id": 40,
+      "question": "where did the bannock escape to after running away from jock and his wife ?",
+      "ground_truth": "a shepherd 's cottage on the other side .",
+      "prediction": "\" but the little bannock had no wish to be eaten up by the miller , so it turned and ran out of the mill , and the miller was so busy that he did not trouble himself to run after it",
+      "question_type": "setting",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.0024132728576660156
+    },
+    {
+      "question_id": 41,
+      "question": "why did the bannock always run to the fire in the houses ?",
+      "ground_truth": "it wanted to warm itself .",
+      "prediction": "\" but the little bannock had no wish to be eaten up by the miller , so it turned and ran out of the mill , and the miller was so busy that he did not trouble himself to run after it",
+      "question_type": "causal relationship",
+      "local_or_sum": "summary",
+      "ex_or_im": "implicit",
+      "prediction_time": 0.0019099712371826172
+    },
+    {
+      "question_id": 42,
+      "question": "why did the shepherd and his wife want to catch the bannock ?",
+      "ground_truth": "they wanted to eat the bannock with their porridge .",
+      "prediction": "\" so she jumped up with her lint and her lint cards , and the tailor jumped up with his great shears , and one apprentice grasped the line measure , while another took up the saucer full of pins ; and they all tried to catch the wee bannock",
+      "question_type": "causal relationship",
+      "local_or_sum": "local",
+      "ex_or_im": "implicit",
+      "prediction_time": 0.00519561767578125
+    },
+    {
+      "question_id": 43,
+      "question": "what did the shepherd throw at the bannock ?",
+      "ground_truth": "his bonnet .",
+      "prediction": "so jock ran into the dark corner behind the chair ; but , in his hurry , he tripped and fell , and the wee bannock jumped over him and flew laughing out at the door",
+      "question_type": "action",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.005113840103149414
+    },
+    {
+      "question_id": 44,
+      "question": "why did the goodman want to catch the bannock ?",
+      "ground_truth": "he did not have enough to eat at supper .",
+      "prediction": "\" so the goodman threw his coat right on the top of the little bannock , and almost managed to smother it ; but it struggled bravely , and got out , breathless and hot , from under it",
+      "question_type": "causal relationship",
+      "local_or_sum": "local",
+      "ex_or_im": "implicit",
+      "prediction_time": 0.00424647331237793
+    },
+    {
+      "question_id": 45,
+      "question": "why did the goodman go home ?",
+      "ground_truth": "he was feeling cold without his coat .",
+      "prediction": "\" so the goodman threw his coat right on the top of the little bannock , and almost managed to smother it ; but it struggled bravely , and got out , breathless and hot , from under it",
+      "question_type": "causal relationship",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.0019452571868896484
+    },
+    {
+      "question_id": 46,
+      "question": "why didn't the goodman have his coat when he was chasing the bannock ?",
+      "ground_truth": "he threw it on the bannock .",
+      "prediction": "\" so the goodman threw his coat right on the top of the little bannock , and almost managed to smother it ; but it struggled bravely , and got out , breathless and hot , from under it",
+      "question_type": "causal relationship",
+      "local_or_sum": "local",
+      "ex_or_im": "implicit",
+      "prediction_time": 0.006200075149536133
+    },
+    {
+      "question_id": 47,
+      "question": "where did the bannock fall into ?",
+      "ground_truth": "a fox 's hole .",
+      "prediction": "when she came into the kitchen and was setting about her work of sweeping the ashes together , the cook said to her , ' let that wait till to - morrow , and just cook the king 's soup for me ; i want to have a little peep at the company upstairs ; but be sure that you do not let a hair fall into it , otherwise you will get nothing to eat in future ! ' so the cook went away , and the many - furred creature cooked the soup for the king",
+      "question_type": "setting",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.004006862640380859
+    },
+    {
+      "question_id": 48,
+      "question": "why did the bannock fall into the fox's hole ?",
+      "ground_truth": "it was so dark that it never saw that there was a fox 's hole there .",
+      "prediction": "then it ran out into the grey light again , for night was beginning to fall , and the goodman ran out after it , without his coat",
+      "question_type": "causal relationship",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.002091646194458008
+    },
+    {
+      "question_id": 49,
+      "question": "what happened after the bannock fell into the fox's hole ?",
+      "ground_truth": "the fox ate the bannock .",
+      "prediction": "\" so jock ran into the dark corner behind the chair ; but , in his hurry , he tripped and fell , and the wee bannock jumped over him and flew laughing out at the door",
+      "question_type": "outcome resolution",
+      "local_or_sum": "local",
+      "ex_or_im": "implicit",
+      "prediction_time": 0.006191253662109375
+    },
+    {
+      "question_id": 50,
+      "question": "what kind of hair did the wife have ?",
+      "ground_truth": "golden hair .",
+      "prediction": "for a long time the king was not to be comforted , and he did not even think of taking a second wife",
+      "question_type": "character",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.002331256866455078
+    },
+    {
+      "question_id": 51,
+      "question": "why couldn't one find anyone like the king's wife ?",
+      "ground_truth": "she was so beautiful .",
+      "prediction": "there was once upon a time a king who had a wife with golden hair , and she was so beautiful that you could n't find anyone like her in the world",
+      "question_type": "causal relationship",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.008092164993286133
+    },
+    {
+      "question_id": 52,
+      "question": "what happened when the king's wife fell ill ?",
+      "ground_truth": "she felt that she must soon die .",
+      "prediction": "it happened that she fell ill , and when she felt that she must soon die , she sent for the king , and said , ' if you want to marry after my death , make no one queen unless she is just as beautiful as i am , and has just such golden hair as i have",
+      "question_type": "outcome resolution",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.003097057342529297
+    },
+    {
+      "question_id": 53,
+      "question": "who did the king's wife send for when she felt that she would soon die ?",
+      "ground_truth": "the king .",
+      "prediction": "it happened that she fell ill , and when she felt that she must soon die , she sent for the king , and said , ' if you want to marry after my death , make no one queen unless she is just as beautiful as i am , and has just such golden hair as i have",
+      "question_type": "character",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.013806581497192383
+    },
+    {
+      "question_id": 54,
+      "question": "why did the councillors say the king had to marry again ?",
+      "ground_truth": "so that they may have a queen .",
+      "prediction": "at last his councillors said , ' the king must marry again , so that we may have a queen",
+      "question_type": "causal relationship",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.0021147727966308594
+    },
+    {
+      "question_id": 55,
+      "question": "why were the messengers sent far and wide ?",
+      "ground_truth": "to seek for a bride equal to the late queen in beauty .",
+      "prediction": "' so messengers were sent far and wide to seek for a bride equal to the late queen in beauty",
+      "question_type": "causal relationship",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.003320932388305664
+    },
+    {
+      "question_id": 56,
+      "question": "how did the king's daughter look ?",
+      "ground_truth": "just as beautiful as her dead mother .",
+      "prediction": "' ' how did you get the ring which was in the soup ? ' he asked",
+      "question_type": "character",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.0022742748260498047
+    },
+    {
+      "question_id": 57,
+      "question": "why did the king want his daughter to be the queen ?",
+      "ground_truth": "she was exactly like her dead mother .",
+      "prediction": "one day when she had grown up , her father looked at her , and saw that she was exactly like her mother , so he said to his councillors , ' i will marry my daughter to one of you , and she shall be queen , for she is exactly like her dead mother\n\n, and when i die her husband shall be king",
+      "question_type": "causal relationship",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.002759218215942383
+    },
+    {
+      "question_id": 58,
+      "question": "what will happen when the king dies ?",
+      "ground_truth": "his daughter 's husband shall be king .",
+      "prediction": "but when the dance was ended , she disappeared again so quickly that the king could not see which way she went",
+      "question_type": "outcome resolution",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.00428009033203125
+    },
+    {
+      "question_id": 59,
+      "question": "how did the king's daughter feel when she heard his decision ?",
+      "ground_truth": "not at all pleased .",
+      "prediction": "' but when the princess heard of her father 's decision , she was not at all pleased , and said to him , ' before i do your bidding , i must have three dresses ; one as golden as the sun , one as silver as the moon , and one as shining as the stars",
+      "question_type": "feeling",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.005980014801025391
+    },
+    {
+      "question_id": 60,
+      "question": "what did the king's daughter say she must have ?",
+      "ground_truth": "three dresses .",
+      "prediction": "' then the cook said , ' i must confess ; i did not cook the soup ; the many - furred creature did",
+      "question_type": "action",
+      "local_or_sum": "summary",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.0022225379943847656
+    },
+    {
+      "question_id": 61,
+      "question": "what did the cloak have to made of ?",
+      "ground_truth": "every animal .",
+      "prediction": "she had run to her little room and had quickly taken off her dress , made her face and hands black , put on the fur cloak , and was once more the many - furred creature\n\nit was quite different and much better soup than you have ever cooked",
+      "question_type": "action",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.002157449722290039
+    },
+    {
+      "question_id": 62,
+      "question": "what did the king command the huntsmen to do ?",
+      "ground_truth": "catch one of every kind of beast in the kingdom .",
+      "prediction": "the king said to the huntsmen , ' see what sort of a wild beast is in there",
+      "question_type": "action",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.0022110939025878906
+    },
+    {
+      "question_id": 63,
+      "question": "who did the king command to weave the three dresses ?",
+      "ground_truth": "the most skilled maidens .",
+      "prediction": "skilled maidens in his kingdom to weave the three dresses , one as golden as the sun , and one as silver as the moon , and one as shining as the stars ; and he gave orders to all his huntsmen to catch one of every kind of beast in the kingdom , and to get a bit of its skin to make the cloak of a thousand pieces of fur",
+      "question_type": "character",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.002653837203979492
+    },
+    {
+      "question_id": 64,
+      "question": "what happened after all was ready ?",
+      "ground_truth": "the king commanded the cloak to be brought to him , and he spread it out before the princess .",
+      "prediction": "at last , when all was ready , the king commanded the cloak to be brought to him , and he spread it out before the princess , and said , ' tomorrow shall be your wedding - day",
+      "question_type": "outcome resolution",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.003113269805908203
+    },
+    {
+      "question_id": 65,
+      "question": "what was the princess determined to do ?",
+      "ground_truth": "flee away .",
+      "prediction": "' when the princess saw that there was no more hope of changing her father 's resolution , she determined to flee away",
+      "question_type": "action",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.002699613571166992
+    },
+    {
+      "question_id": 66,
+      "question": "what did the princess do while everyone was sleeping ?",
+      "ground_truth": "she got up and took three things from her treasures .",
+      "prediction": "in the night , when everyone else was sleeping , she got up and took three things from her treasures , a gold ring , a little gold spinning - wheel , and a gold reel ; she put the sun , moon , and star dresses in a nut - shell , drew on the cloak of many skins , and made her face and hands black with soot",
+      "question_type": "action",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.0019752979278564453
+    },
+    {
+      "question_id": 67,
+      "question": "what did the princess put in a nut-shell ?",
+      "ground_truth": "the sun , moon , and star dresses .",
+      "prediction": "in the night , when everyone else was sleeping , she got up and took three things from her treasures , a gold ring , a little gold spinning - wheel , and a gold reel ; she put the sun , moon , and star dresses in a nut - shell , drew on the cloak of many skins , and made her face and hands black with soot",
+      "question_type": "action",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.002309083938598633
+    },
+    {
+      "question_id": 68,
+      "question": "who did the princess commend herself to ?",
+      "ground_truth": "god .",
+      "prediction": "at last , when all was ready , the king commanded the cloak to be brought to him , and he spread it out before the princess , and said , ' tomorrow shall be your wedding - day",
+      "question_type": "character",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.0023229122161865234
+    },
+    {
+      "question_id": 69,
+      "question": "where did the princess travel till ?",
+      "ground_truth": "a large forest .",
+      "prediction": "' ' how did you get the ring which was in the soup ? ' he asked",
+      "question_type": "setting",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.0020699501037597656
+    },
+    {
+      "question_id": 70,
+      "question": "where did the princess fall asleep ?",
+      "ground_truth": "inside a hollow tree .",
+      "prediction": "at last , when all was ready , the king commanded the cloak to be brought to him , and he spread it out before the princess , and said , ' tomorrow shall be your wedding - day",
+      "question_type": "setting",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.0021369457244873047
+    },
+    {
+      "question_id": 71,
+      "question": "what did the princess do after she condemned herself to god ?",
+      "ground_truth": "went out and travelled the whole night .",
+      "prediction": "then she commended herself to god , and went out and travelled the whole night till she came to a large forest",
+      "question_type": "action",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.001882314682006836
+    },
+    {
+      "question_id": 72,
+      "question": "who did the wood belong to ?",
+      "ground_truth": "the king .",
+      "prediction": "' then she was sent into the kitchen , where she carried wood and water , poked the fire , washed vegetables , plucked fowls , swept up the ashes , and did all the dirty work",
+      "question_type": "character",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.0019283294677734375
+    },
+    {
+      "question_id": 73,
+      "question": "what did the king do in the wood ?",
+      "ground_truth": "hunt .",
+      "prediction": "' then he asked her , ' what do you do in my palace ? ' ' i am of no use except to have boots thrown at my head",
+      "question_type": "action",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.0020742416381835938
+    },
+    {
+      "question_id": 74,
+      "question": "what did the dogs do when they came to the tree ?",
+      "ground_truth": "sniffed .",
+      "prediction": "when his dogs came to the tree , they sniffed , and ran round and round it\n\n, barking",
+      "question_type": "action",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.0018906593322753906
+    },
+    {
+      "question_id": 75,
+      "question": "what did the huntsmen say lived in the tree ?",
+      "ground_truth": "a wonderful animal that they did n't know .",
+      "prediction": "ah , beautiful king 's daughter , what is going to befall you now ?\n\nskilled maidens in his kingdom to weave the three dresses , one as golden as the sun , and one as silver as the moon , and one as shining as the stars ; and he gave orders to all his huntsmen to catch one of every kind of beast in the kingdom , and to get a bit of its skin to make the cloak of a thousand pieces of fur",
+      "question_type": "action",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.0019116401672363281
+    },
+    {
+      "question_id": 76,
+      "question": "what did the king tell the huntsmen to do to the beast ?",
+      "ground_truth": "catch it alive .",
+      "prediction": "the king said to the huntsmen , ' see what sort of a wild beast is in there",
+      "question_type": "action",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.0018782615661621094
+    },
+    {
+      "question_id": 77,
+      "question": "what happened after the huntsmen seized the maiden ?",
+      "ground_truth": "she awoke .",
+      "prediction": "' when the huntsmen seized the maiden , she awoke and was frightened , and cried out to them , ' i am a poor child , forsaken by father and mother ; take pity on me , and let me go with you",
+      "question_type": "outcome resolution",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.0018711090087890625
+    },
+    {
+      "question_id": 78,
+      "question": "how did the princess feel when she awoke ?",
+      "ground_truth": "frightened .",
+      "prediction": "' when the princess saw that there was no more hope of changing her father 's resolution , she determined to flee away",
+      "question_type": "feeling",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.0018475055694580078
+    },
+    {
+      "question_id": 79,
+      "question": "what did the huntsmen say the creature could do ?",
+      "ground_truth": "work in the kitchen .",
+      "prediction": "ah , beautiful king 's daughter , what is going to befall you now ?\n\nthat the many - furred creature had cooked the soup",
+      "question_type": "action",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.0019102096557617188
+    },
+    {
+      "question_id": 80,
+      "question": "where did the creature and the huntsmen go ?",
+      "ground_truth": "back to the palace .",
+      "prediction": "' when the huntsmen seized the maiden , she awoke and was frightened , and cried out to them , ' i am a poor child , forsaken by father and mother ; take pity on me , and let me go with you",
+      "question_type": "setting",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.002057790756225586
+    },
+    {
+      "question_id": 81,
+      "question": "where would the many-furred creature sleep ?",
+      "ground_truth": "a tiny room under the stairs .",
+      "prediction": "there they showed her a tiny room under the stairs , where no daylight came , and said to her , ' many - furred creature , you can live and sleep here",
+      "question_type": "setting",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.0019125938415527344
+    },
+    {
+      "question_id": 82,
+      "question": "what did the many-furred creature do in the kitchen ?",
+      "ground_truth": "carried wood and water , poked the fire , washed vegetables , plucked fowls , swept up the ashes , and did all the dirty work .",
+      "prediction": "' then he asked her , ' what do you do in my palace ? ' ' i am of no use except to have boots thrown at my head",
+      "question_type": "action",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.002176523208618164
+    },
+    {
+      "question_id": 83,
+      "question": "what will the princess do in half-an-hour ?",
+      "ground_truth": "be back here to sweep up the ashes .",
+      "prediction": "' then he asked her , ' what do you do in my palace ? ' ' i am of no use except",
+      "question_type": "prediction",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.0025424957275390625
+    },
+    {
+      "question_id": 84,
+      "question": "what did the princess do in her little room ?",
+      "ground_truth": "drew off her fur cloak , and washed off the soot from her face and hands .",
+      "prediction": "in the night , when everyone else was sleeping , she got up and took three things from her treasures , a gold ring , a little gold spinning - wheel , and a gold reel ; she put the sun , moon , and star dresses in a nut - shell , drew on the cloak of many skins , and made her face and hands black with soot",
+      "question_type": "action",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.0019829273223876953
+    },
+    {
+      "question_id": 85,
+      "question": "why did everybody step out of the princess' way ?",
+      "ground_truth": "nobody knew her , and they thought she must be a king 's daughter .",
+      "prediction": "' ' how did you get the ring which was in the soup ? ' he asked",
+      "question_type": "causal relationship",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.0018241405487060547
+    },
+    {
+      "question_id": 86,
+      "question": "what did the king do after he came towards the princess ?",
+      "ground_truth": "gave her his hand , and danced with her .",
+      "prediction": "' then he asked her , ' what do you do in my palace ? ' ' i am of no use except to have boots thrown at my head",
+      "question_type": "action",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.002126932144165039
+    },
+    {
+      "question_id": 87,
+      "question": "what will happen if the many-furred creature drops a hair in the soup ?",
+      "ground_truth": "the many - furred creature will get nothing to eat in future .",
+      "prediction": "when she came into the kitchen and was setting about her work of sweeping the ashes together , the cook said to her , ' let that wait till to - morrow , and just cook the king 's soup for me ; i want to have a little peep at the company upstairs ; but be sure that you do not let a hair fall into it , otherwise you will get nothing to eat in future ! ' so the cook went away , and the many - furred creature cooked the soup for the king",
+      "question_type": "prediction",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.0020606517791748047
+    },
+    {
+      "question_id": 88,
+      "question": "what did the many-furred creature do after she made a bread-soup ?",
+      "ground_truth": "fetched her gold ring from her little room , and laid it in the tureen in which the soup was to be served up .",
+      "prediction": "after a time there was another feast , and the many - furred creature begged the cook as at the last one to let her go and look on",
+      "question_type": "action",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.0018723011016845703
+    },
+    {
+      "question_id": 89,
+      "question": "what did the king discover at the bottom of the dish ?",
+      "ground_truth": "a gold ring .",
+      "prediction": "then the many - furred creature came before the king , but she said again that she was of no use except to have boots thrown at her head , and that she knew nothing at all of the golden spinning - wheel",
+      "question_type": "action",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.0017812252044677734
+    },
+    {
+      "question_id": 90,
+      "question": "how did the cook feel when the king called him in ?",
+      "ground_truth": "terrified .",
+      "prediction": "' ' how did you get the ring which was in the soup ? ' he asked",
+      "question_type": "feeling",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.001949310302734375
+    },
+    {
+      "question_id": 91,
+      "question": "why did the king say the cook did not prepare his soup ?",
+      "ground_truth": "it was quite different and much better soup than the cook have ever cooked .",
+      "prediction": "' then the cook said , ' i must confess ; i did not cook the soup ; the many - furred creature did",
+      "question_type": "causal relationship",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.0025162696838378906
+    },
+    {
+      "question_id": 92,
+      "question": "who did the cook say cooked the soup ?",
+      "ground_truth": "the many - furred creature .",
+      "prediction": "the cook was terrified when he heard the command , and said to the many - furred creature , ' you must have let a hair fall into the soup , and if you have you deserve a good beating ! ' when he came before the king , the king asked who had cooked the soup",
+      "question_type": "character",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.006514549255371094
+    },
+    {
+      "question_id": 93,
+      "question": "who did the many-furred creature go upstairs looking like ?",
+      "ground_truth": "a king 's daughter .",
+      "prediction": "then she went upstairs looking just like a king 's daughter , and the king came towards her , delighted to see her again , and as the dance had just begun , they danced together",
+      "question_type": "character",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.003989458084106445
+    },
+    {
+      "question_id": 94,
+      "question": "what will the king do with the beautiful maiden when he sees her again ?",
+      "ground_truth": "dance .",
+      "prediction": "ah , beautiful king 's daughter , what is going to befall you now ?\n\nyes , but come back again in half - an - hour and cook the king the bread - soup that he likes so much",
+      "question_type": "prediction",
+      "local_or_sum": "summary",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.0015878677368164062
+    },
+    {
+      "question_id": 95,
+      "question": "how did the king feel seeing the maiden again ?",
+      "ground_truth": "delighted .",
+      "prediction": "' ' how did you get the ring which was in the soup ? ' he asked",
+      "question_type": "feeling",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.0015823841094970703
+    },
+    {
+      "question_id": 96,
+      "question": "what happened when the dance ended ?",
+      "ground_truth": "the maiden disappeared again so quickly that the king could not see which way she went .",
+      "prediction": "it happened once when a great feast was being held in the palace , that she said to the cook , ' can i go upstairs for a little bit and look on ? i will stand outside the doors",
+      "question_type": "outcome resolution",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.001619100570678711
+    },
+    {
+      "question_id": 97,
+      "question": "what did the many-furred creature say her use was ?",
+      "ground_truth": "have boots thrown at her head .",
+      "prediction": "then the many - furred creature came before the king , but she said again that she was of no use except to have boots thrown at her head , and that she knew nothing at all of the golden spinning - wheel",
+      "question_type": "action",
+      "local_or_sum": "summary",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.0020864009857177734
+    },
+    {
+      "question_id": 98,
+      "question": "what did the cook think the many-furred creature was ?",
+      "ground_truth": "a witch .",
+      "prediction": "' ' how did you get the ring which was in the soup ? ' he asked",
+      "question_type": "action",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.002123594284057617
+    },
+    {
+      "question_id": 99,
+      "question": "why did the cook think the many-furred creature was a witch ?",
+      "ground_truth": "she always put something in the soup , so that it is much better and tastes nicer to the king than any that he cooked .",
+      "prediction": "the cook said , ' you must be a witch , many - furred creature , for you always put something in the soup , so that it is much better and tastes nicer to the king than any that i cook",
+      "question_type": "causal relationship",
+      "local_or_sum": "local",
+      "ex_or_im": "explicit",
+      "prediction_time": 0.002123594284057617
+    }
+  ],
+  "metrics": {
+    "total_questions": 100,
+    "valid_predictions": 100,
+    "rouge1_avg": 0.15575817925916247,
+    "rouge2_avg": 0.09675072658614364,
+    "rougeL_avg": 0.14767160220136444,
+    "bleu_avg": 0.06230673572434078,
+    "bert_score_precision": 0.8122427463531494,
+    "bert_score_recall": 0.8671430945396423,
+    "bert_score_f1": 0.8385589122772217,
+    "avg_prediction_length": 37.51,
+    "avg_ground_truth_length": 8.52,
+    "flesch_reading_ease": 74.09570217178624,
+    "gunning_fog_index": 12.610462662065144,
+    "by_question_type": {
+      "setting": {
+        "count": 11,
+        "valid_predictions": 11,
+        "success_rate": 1.0
+      },
+      "local_sum_local": {
+        "count": 92,
+        "valid_predictions": 92,
+        "success_rate": 1.0
+      },
+      "ex_im_explicit": {
+        "count": 85,
+        "valid_predictions": 85,
+        "success_rate": 1.0
+      },
+      "character": {
+        "count": 9,
+        "valid_predictions": 9,
+        "success_rate": 1.0
+      },
+      "action": {
+        "count": 37,
+        "valid_predictions": 37,
+        "success_rate": 1.0
+      },
+      "outcome resolution": {
+        "count": 9,
+        "valid_predictions": 9,
+        "success_rate": 1.0
+      },
+      "ex_im_implicit": {
+        "count": 15,
+        "valid_predictions": 15,
+        "success_rate": 1.0
+      },
+      "feeling": {
+        "count": 8,
+        "valid_predictions": 8,
+        "success_rate": 1.0
+      },
+      "causal relationship": {
+        "count": 19,
+        "valid_predictions": 19,
+        "success_rate": 1.0
+      },
+      "prediction": {
+        "count": 7,
+        "valid_predictions": 7,
+        "success_rate": 1.0
+      },
+      "local_sum_summary": {
+        "count": 8,
+        "valid_predictions": 8,
+        "success_rate": 1.0
+      }
+    }
+  },
+  "timing": {
+    "total_time": 0.2999880313873291,
+    "avg_time_per_question": 0.002999880313873291,
+    "median_time_per_question": 0.002091646194458008
+  }
+}
